@@ -31,13 +31,21 @@ From the point of view of the course, you can go ahead and ignore them.
 python -m venv neoflix
 
 source neoflix/bin/activate
-----
 
+pip install -r requirements.txt
+
+
+== Working on the Application
+
+[source,sh]
+----
+source neoflix/bin/activate
 
 
 == Running the Application
 
 [source,sh]
+----
 export FLASK_APP=api
 export FLASK_ENV=development
 flask run
