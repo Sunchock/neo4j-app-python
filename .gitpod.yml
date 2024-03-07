@@ -7,6 +7,7 @@ tasks:
 
 vscode:
   extensions:
-    - ms-python.python # and commit this file to your remote git repository to share the goodness with others.
+    - ms-python.python
     - adamcowley.neo4j-vscode
     - gitpod.gitpod-remote-ssh
+    - asciidoctor.asciidoctor-vscode

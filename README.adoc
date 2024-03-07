@@ -33,6 +33,7 @@ python -m venv neoflix
 source neoflix/bin/activate
 
 pip install -r requirements.txt
+----
 
 
 == Working on the Application
@@ -40,7 +41,7 @@ pip install -r requirements.txt
 [source,sh]
 ----
 source neoflix/bin/activate
-
+----
 
 == Running the Application
 
@@ -49,4 +50,4 @@ source neoflix/bin/activate
 export FLASK_APP=api
 export FLASK_ENV=development
 flask run
-
+----
