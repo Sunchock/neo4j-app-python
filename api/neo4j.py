@@ -13,6 +13,7 @@ def init_driver(uri, username, password):
         uri=uri,
         auth=basic_auth(user=username, password=password)
     )
+    current_app.driver.verify_connectivity()
     return current_app.driver
 # end::initDriver[]
 
