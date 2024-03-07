@@ -9,7 +9,7 @@ from api import create_app
 from api.neo4j import init_driver, get_driver, close_driver
 
 # Load credentials from '.env' file
-load_dotenv()
+load_dotenv(override=True)
 database_uri = os.environ['NEO4J_URI']
 username = os.environ['NEO4J_USERNAME']
 password = os.environ['NEO4J_PASSWORD']
