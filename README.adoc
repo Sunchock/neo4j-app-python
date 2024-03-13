@@ -51,3 +51,6 @@ export FLASK_APP=api
 export FLASK_ENV=development
 flask run
 ----
+
+/!\ DONT FORGET TO LOAD THE .ENV TO SET CREDENTIALS /!\
+source .env
